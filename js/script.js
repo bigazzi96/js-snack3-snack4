@@ -1,5 +1,5 @@
 
-//* Snack 4
+//* Snack 3
 
 // creo array oggetti
 
@@ -31,3 +31,30 @@ const pesoMinimo = Math.min(...biciclette.map(bici => bici.peso));
 const biciclettaLeggera = biciclette.filter(bici => bici.peso === pesoMinimo);
 
 console.log (biciclettaLeggera);
+
+//* SNACK 4
+
+const squadreCalcio = [
+    {
+        name: 'Roma',
+        puntiFatti: 0,
+        falliSubiti:0
+    },
+    {
+        nome: 'Lazio',
+        puntiFatti: 0,
+        falliSubiti:0
+    },
+    {
+        nome: 'Milan',
+        puntiFatti: 0,
+        falliSubiti:0
+    },
+    {
+        nome: 'Napoli',
+        puntiFatti: 0,
+        falliSubiti:0
+    },
+];
+
+console.log(squadreCalcio);
