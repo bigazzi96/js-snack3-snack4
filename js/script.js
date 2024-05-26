@@ -57,4 +57,17 @@ const squadreCalcio = [
     },
 ];
 
+
+
+//funzione numeri casuali 
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+//assegno i numeri casuali a puntiFatti e falliSubiti
+for (let i = 0; i < squadreCalcio.length; i++) {
+    squadreCalcio[i].puntiFatti = getRandomInt(0, 100);
+    squadreCalcio[i].falliSubiti = getRandomInt(0, 100);
+}
+
 console.log(squadreCalcio);
